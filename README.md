@@ -16,6 +16,7 @@
 - 使用 express-session 管理 session 以實現登入驗證機制
 - 使用 connect-flash 顯示錯誤訊息
 - 使用 Heroku 提供的 ClearDB MySQL 串接資料庫
+- 使用 ORM 框架 Sequelize 操作資料庫
 
 ![image](https://github.com/heidiliu2020/express-board-demo/blob/master/express-demo-register.gif)
 
