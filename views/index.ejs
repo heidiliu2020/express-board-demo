@@ -15,8 +15,8 @@
     <% if(username) { %>
     <form method="POST" action="/comments" class="mb-3">
       <div class="form-group">
-        <div class="text-dark">留言內容</div>
-        <textarea name="content" class="form-control"></textarea>
+        <div class="text-dark" style="margin-bottom: 1rem; font-size: large;">留言內容</div>
+        <textarea name="content" class="form-control"  style="height: 10rem;"></textarea>
       </div>
       <button type="submit" class="btn btn-dark">提交</button>
     </form>
@@ -26,7 +26,7 @@
 
     <div class="card-container d-flex justify-content-around flex-wrap" style="width: 100%;">
       <% comments.forEach(function(comment) { %>
-        <div class="card mb-2" style="width: 22rem; height: 18rem;">
+        <div class="card mb-2" style="width: 22rem; height: 18rem; ">
           <div class="card-header">
             <div class="card-top d-flex justify-content-between">
               <h5 class="card-title"><%= comment.User.nickname %></h5>
@@ -39,7 +39,7 @@
             </div>
             <p class="card-subtitle text-muted"><%= moment(comment.createdAt).format(shortDateFormat) %></p>
           </div>
-          <div class="card-body" style="overflow:scroll; overflow-x:hidden; ">
+          <div class="card-body" style="overflow:scroll; overflow-x:hidden; white-space: pre-line;  word-wrap:break-word;">
             <p class="card-text" ><%= comment.content %></p>
           </div>
         </div>
