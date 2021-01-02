@@ -8,7 +8,7 @@
 
 ![](https://i.imgur.com/shOz2Ey.png)
 
-## 搭配第三方套件在 Node.js 上實作 MVC 架構
+## 搭配第三方套件在 Node.js 實作 MVC 架構
 
 - 以 EJS 作為 template engines，搭配 bootstrap 實作 View
 - 使用 bcrypt 將密碼加密後存入資料庫
@@ -20,7 +20,7 @@
 
 ![image](https://github.com/heidiliu2020/express-board-demo/blob/master/express-demo-register.gif)
 
-## 專案功能：
+## 專案功能
 
 - 簡易註冊登入機制
 - 新增留言功能
